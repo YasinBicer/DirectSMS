@@ -1,0 +1,1625 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+
+@media screen and (max-width: 450px){
+	
+	div.slider{float:none; margin:25px auto; width:100%; height:175px !important;}
+	}
+
+@media screen and (max-width: 1025px){
+	.navbar{width:100% !important;}
+	div.anasayfa{
+		width:100%;
+		height:auto;}
+		
+	div.anasayfa-sol{
+		float:none;
+		width:100%;}
+	
+	div.anasayfa-sag{
+		float:none;
+		width:100%;}
+	
+	a.navbar-brand{ width:200px; margin:0 0 0 0;}
+	
+	
+	div.navbar-sag{
+		float:right !important;
+		margin:0;}
+	
+	
+		
+		
+	div.sms-kisim{width:95%; float:none; margin:0 auto;}	
+	div.sms-icerik{ margin:20px auto; width:100%;}
+	div.sms-icerik-1{ margin:0 0 0 10%;}
+	div.sms-icerik-2{ margin:0 10% 0 0;}
+		
+	div.secim-kisim{width:95%; margin:25px auto; height:auto !important; padding:0 0 10px 0;}
+		
+	div.secim-buttonlar{width:100%;}
+	label.secim-button-1{width:50%;}
+	label.secim-button-2{width:50%;}
+	
+	span.secim-baslik-1{width:90%; margin:20px auto 10px auto}	
+	div.secim-form-1{width:90%; margin:0 auto}
+	
+	div.servis-secim-card-kutu{width:90%;}
+	div.ulke-secim-card-kutu{width:90%;}
+	div.operator-secim-card-kutu{width:90%;}
+	
+	.servis-card{width:100% !important;}
+	
+	div.secim-form-2-text{width:90% !important;}
+	
+	div.secim-form-2{ width:90% !important;}
+	div.secim-form-3{ width:90% !important;}
+	
+	
+	
+	div.banner{ float:none; width:95%; height:auto !important; margin:25px auto 0 auto;}
+	
+	div.slider{float:none; margin:25px auto; width:100%; height:350px;}
+	
+	div.telefon{ float:none; margin:80px auto; padding:60px 0 0 0;}
+	div.telefon-bildirim-1{ margin:50px auto 0 auto;}
+	
+	
+	div.banner-alt {float: none;width:100%; height:auto !important; margin:0 auto 0 auto; border:none;}
+    div.banner-alt-servis-sayi {float:none; width:100%; height:100px; margin:0 auto 40px auto; text-align:center;}
+    div.banner-alt-yazi-1,div.banner-alt-yazi-2 {width: 100%;}
+	div.banner-alt-uygulamalar {float: none; width: 100%; height: auto;margin: 25px auto;}
+    .swiper-container {width:100%; height:auto; /* Mobilde uygun yükseklik */}
+    .swiper-wrapper {display: flex;}
+    .swiper-slide {display:flex; justify-content:center; align-items:center; width:auto; height:100%;}
+    .uygulama-resim {width:auto; height: 80px; /* Resimlerin mobilde uygun yüksekliği */}
+
+    
+	div.banner-alt-uygulamalar.large{ float:none; margin:20px auto; border-radius:20px}
+	div.banner-alt-uygulamalar.small{ float:none; margin:0 auto 40px auto; border-radius:20px}
+
+
+	div.banner-asamalar {float:none; width:95%; height:auto; margin:50px auto 0 auto !important;}
+	div.banner-asamalar{ float:none; width:95%; height:auto; margin:0 auto 0 auto; }
+	div.banner-asama-1{float:none; margin:35px auto; border-right:none; border-bottom:1px solid #F3F3F3;}
+	div.banner-asama-2{float:none; margin:35px auto; border-right:none; border-bottom:1px solid #F3F3F3;}
+	div.banner-asama-3{float:none; margin:35px auto; border-right:none; border-bottom:1px solid #F3F3F3;}
+	
+	div.banner-start-now{ float:none; width:95%; height:auto; margin:25px auto;}
+	div.banner-start-now-sol{ float:none; margin:25px auto; width:250px;}
+	div.banner-start-now-sag{ float:none; width:100%; margin:25px auto;}
+	select.banner-start-now-select-1{float:left; width:45%; margin:0 0 0 2.5%;}
+	select.banner-start-now-select-2{float:left; width:45%; margin:0 0 0 5%;}
+	input.banner-start-now-button{ float:none; width:95%; margin:25px 0 0 2.5%;}
+	
+	
+	
+	
+	div.footer{ float:none; margin:0 auto; width:95%; height:1400px;}
+	div.footer-ic{ width:100%; height:1400px}
+	
+	div.footer-ic-ust{ width:90%; height:1150px; padding:25px 0 0 0;}
+	div.footer-ic-kisim-1{ float:none; margin:25px auto;}
+	div.footer-sosyal{ margin:15px 0 0 0;}
+	div.footer-ic-kisim-2{ width:217px; float:none; margin:50px auto;}
+	div.footer-ic-kisim-3{ width:217px; float:none; margin:50px auto;}
+	div.footer-ic-kisim-4{ width:217px; float:none; margin:50px auto;}
+	div.footer-ic-kisim-5{ width:217px; float:none; margin:50px auto;}
+	div.footer-ic-kisim-6{ width:217px; float:none; margin:50px auto;}
+	
+	div.footer-ic-alt{ width:85%; height:200px; margin:0;}
+	div.footer-ic-alt-sol{ float:none; margin:10px auto 20px auto;}
+	div.footer-ic-alt-orta{ width:250px; height:100px; margin:25px auto 0 auto}
+	div.footer-ic-alt-sol ul li{ float:none;}
+	div.footer-ic-alt-orta{ float:none; margin:10px auto;}
+	div.footer-ic-alt-sag{ float:none; margin:20px auto;}
+	
+	
+	
+	}
+
+/* Navbar */
+.navbar{ margin:0 auto;width:1490px;margin:auto;}
+.navbar-nav{ margin:0 auto;}
+
+/* Logo */
+.navbar-brand{
+	float:left;
+	margin:0 0 0 60px;}
+/* Logo/ */
+
+/* Navbar_sag_kisim */
+.navbar-sag{
+	float:right;
+	width:180px;
+	height:38px;
+	margin:0 50px 0 0;}
+
+.navbar-sag ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+
+.navbar-sag ul li{
+	float:left;
+	position:relative;}
+
+.navbar-sag ul li a{
+	display:block;
+	width:38px;
+	height:38px;
+	border-radius:12px;
+	background:#F3F3F3;
+	margin:0 5px 0 0;
+	text-decoration:none;
+	padding:4px 0 0 8.5px;}
+
+
+/* Navbar_sag_kisim_ulke */
+.navbar-sag ul li#ulke ul{
+	display:none;
+	width:38px;
+	height:60px;
+	background:#FFF;}
+
+.navbar-sag ul li#ulke:hover ul{
+	display:block;
+	position:absolute;
+	right:4px;
+	z-index:2;
+	padding:1px;}
+	
+.navbar-sag ul li#ulke ul li a{
+	float:none;
+	background:#FFF;}
+
+.navbar-sag ul li#ulke ul li:hover a{
+	background:#F3F3F3;}
+/* Navbar_sag_kisim_ulke/ */
+
+
+/* Navbar_sag_kisim_bilgilendirme */
+.navbar-sag ul li#bilgilendirme ul{
+	display:none;
+	width:193px;
+	height:227px;}
+
+.navbar-sag ul li#bilgilendirme:hover ul{
+	display:block;
+	position:absolute;
+	right:0;
+	background:#FFF;
+	z-index:2;
+	padding:13px;
+	border-radius:5px;}
+
+.navbar-sag ul li#bilgilendirme ul li{
+	float:none;}
+/* Navbar_sag_kisim_bilgilendirme/ */
+
+
+/* Navbar_sag_kisim_kullanici */
+.navbar-sag ul li#kullanici ul{
+	display:none;
+	width:132px;
+	height:215px;}
+
+.navbar-sag ul li#kullanici:hover ul{
+	display:block;
+	position:absolute;
+	right:0;
+	background:#FFF;
+	z-index:2;
+	padding:13px;
+	border-radius:5px;}
+
+.navbar-sag ul li#kullanici ul li{
+	float:none;}
+/* Navbar_sag_kisim_kullanici/ */
+
+
+.navbar-sag-arrow{ margin:-25px 0 0 2px;}
+/* Navbar_sag_kisim/ */
+
+
+/* Navbar_yazilar */
+.link-yazi-1{
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+color:#000000;}
+
+.link-yazi-1:hover{
+	color:#FC3657;
+	text-decoration:none;}
+
+
+.hover-yazi-1{
+font-family: "Montserrat", sans-serif;
+font-size: 10px;
+font-weight: 600;
+color:#000;}
+
+.hover-yazi-2{
+font-family: "Montserrat", sans-serif;
+font-size: 9px;
+font-weight: 400;
+color:#000;
+display:block;}
+
+.hover-yazi-3{
+font-family: "Montserrat", sans-serif;
+font-size: 8px;
+font-weight: 600;
+line-height: 9.75px;
+color:#000;
+display:block;
+margin:-20px 0 0 0;}
+
+.hover-yazi-4{
+font-family: "Montserrat", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.19px;
+color:#000;}
+
+.hover-yazi-5{
+font-family: "Montserrat", sans-serif;
+font-size: 8px;
+font-weight: 400;
+color:#FC3657;}
+
+.cizgi-1{
+width:90%;
+size:1px;
+background:#F3F3F3;
+margin:5px auto 0 auto;}
+/* Navbar_yazilar */
+
+/* Navbar/ */
+
+
+.custom-select {
+    -webkit-appearance: none;  /* Safari ve Chrome */
+    -moz-appearance: none;     /* Firefox */
+    appearance: none;          /* Diğer Tarayıcılar */
+    background: transparent;
+    background-image: none;
+    padding: 5px;  /* İhtiyaca göre ayarlayın */
+    border: 1px solid #ccc;  /* İhtiyaca göre ayarlayın */
+    border-radius: 4px;  /* İhtiyaca göre ayarlayın */
+}
+
+
+/* Firefox için ayrı bir çözüm gerekebilir */
+.custom-select::-ms-expand {
+    display: none;  /* Internet Explorer 11+ ve Edge 12-18 */
+}
+
+.custom-select::-moz-focus-inner {
+    border: 0;
+}
+
+/* Eğer Firefox'ta ek stil gerekiyorsa: */
+@-moz-document url-prefix() {
+    .custom-select {
+        padding-right: 30px;  /* Sağdaki oku telafi etmek için */
+    }
+}
+
+
+.anasayfa{
+	width:1440px;
+	height:1050px;
+	margin:0 auto;}
+
+.anasayfa-sol{
+	float:left;
+	width:500px;
+	height:auto;}	
+
+.anasayfa-sag{
+	float:left;
+	width:940px;
+	height:auto;}	
+
+
+
+	
+	
+
+.sms-kisim{
+	width:436px;
+	height:146px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:40px 0 0 40px;}
+
+.sms-baslik{
+	width:188px;
+	height:30px;
+	border-bottom:2px solid #FC3657;
+	margin:30px 0 0 20px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24.38px;
+	text-align: center;
+	color:#FC3657;}
+
+.sms-icerik{
+	width:320px;
+	height:24px;
+	margin:20px 0 0 20px;}
+
+.sms-icerik-1{
+	width:130px;
+	height:24px;
+	float:left;
+	background:url(../images/presention-chart.png) no-repeat left;
+	
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 23px;
+	color:#000;}
+
+.sms-icerik-1:hover{
+	color:#FC3657;
+	background:url(../images/presention-chart-hover.png) no-repeat left;}
+
+
+
+.sms-icerik-2{
+	width:105px;
+	height:24px;
+	float:right;
+	background:url(../images/status-up.png) no-repeat left;
+	
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 25px;
+	color:#000;}
+
+.sms-icerik-2:hover{
+	color:#FC3657;
+	background:url(../images/status-up-hover.png) no-repeat left;}
+
+
+
+
+.tab-contents input[type="radio"],
+    .tab-1, .tab-2 {
+        display: none;
+    }
+
+    .tab-list label {
+        cursor: pointer;
+    }
+
+    .tab-contents {
+        clear: both;
+    }
+
+    #tab-1:checked ~ .tab-1,
+    #tab-2:checked ~ .tab-2 {
+        display: block;
+
+    }
+	
+	
+	
+.secim-kisim{
+	width:436px;
+	height:752px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:20px 0 0 40px;
+}
+
+.secim-buttonlar{
+	width:369px;
+	height:42px;
+	margin:20px auto 0 auto;
+}
+
+.secim-button-1{
+	width:189px;
+	height:42px;
+	border:none;
+	border-radius:5px 0 0 5px;
+	padding:10px 0 0 0;
+	background-color:#747474;
+	float:left;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.5px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+.secim-button-2{
+	width: 180px;
+    height: 42px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    float: left;
+    padding: 10px 0 0 0;
+    background-color: #747474;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+.active_button {
+            background-color: #FC3657;
+        }
+
+
+
+.secim-baslik-1{
+	display:block;
+	width:auto;
+	height:20px;
+	margin:20px 0 5px 35px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.5px;
+}
+
+.secim-form-1{
+	width:369px;
+	height:50px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:5px auto;}
+
+
+.secim-form-2{
+	width:369px;
+	height:50px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:5px auto;
+	display:none;}
+
+.secim-form-3{
+	width:369px;
+	height:50px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:5px auto;
+	display:none;}
+
+
+
+.secim-form-servis-text{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-servis-text:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-servis-text:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-servis-text:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+
+.secim-form-servis-text-tab2{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-servis-text-tab2:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-servis-text-tab2:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-servis-text-tab2:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+
+
+.secim-form-ulke-text{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-ulke-text:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-ulke-text:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-ulke-text:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+.secim-form-ulke-text-tab2{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-ulke-text-tab2:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-ulke-text-tab2:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-ulke-text-tab2:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+
+
+.secim-form-operator-text{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-operator-text:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-operator-text:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-ulke-operator:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+
+.secim-form-operator-text-tab2{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#000 !important;}
+
+.secim-form-operator-text-tab2:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-operator-text-tab2:focus{
+	outline:none;
+	color:#B8B8B8;}
+
+.secim-form-ulke-operator-tab2:hover::placeholder {
+	color:#000 !important;
+}
+
+
+
+.secim-form-2-text{
+	width:320px;
+	height:40px;
+	border:none;
+	margin:5px 0 0 5px;
+	padding:0 0 0 30px;
+	
+	background:url(../images/search-normal.png) no-repeat left;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	color:#B8B8B8;}
+
+.secim-form-2-text:hover{
+	background:url(../images/search-normal-hover.png) no-repeat left;}
+
+.secim-form-2-text:focus{
+	outline:none;
+	color:#4A4A4A;}
+	
+	
+	
+
+.servis-secim-card-kutu{
+	width:369px;
+	height:300px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:25px auto 0 auto;
+	overflow-y:scroll;
+	overflow-x:hidden}
+
+/* Scroll barın genel stilini ayarla */
+.servis-secim-card-kutu::-webkit-scrollbar {
+  width: 5px; /* Scroll bar genişliği */}
+
+/* Scroll barın gövdesini stilize et */
+.servis-secim-card-kutu::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Arka plan rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Scroll barın sürgüsünü (thumb) stilize et */
+.servis-secim-card-kutu::-webkit-scrollbar-thumb {
+  background: #888; /* Sürgü rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Sürgüye hover efekt ekle */
+.servis-secim-card-kutu::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover sırasında sürgü rengi */}
+
+
+.ulke-secim-card-kutu{
+	width:369px;
+	height:300px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:25px auto 0 auto;
+	display:none;
+	overflow-x:hidden;
+	overflow-y:scroll;}
+	
+	
+/* Scroll barın genel stilini ayarla */
+.ulke-secim-card-kutu::-webkit-scrollbar {
+  width: 5px; /* Scroll bar genişliği */}
+
+/* Scroll barın gövdesini stilize et */
+.ulke-secim-card-kutu::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Arka plan rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Scroll barın sürgüsünü (thumb) stilize et */
+.ulke-secim-card-kutu::-webkit-scrollbar-thumb {
+  background: #888; /* Sürgü rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Sürgüye hover efekt ekle */
+.ulke-secim-card-kutu::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover sırasında sürgü rengi */}
+
+
+
+
+
+
+.operator-secim-card-kutu{
+	width:369px;
+	height:300px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:25px auto 0 auto;
+	display:none;
+	overflow-x:hidden;
+	overflow-y:scroll;}
+
+
+/* Scroll barın genel stilini ayarla */
+.operator-secim-card-kutu::-webkit-scrollbar {
+  width: 5px; /* Scroll bar genişliği */}
+
+/* Scroll barın gövdesini stilize et */
+.operator-secim-card-kutu::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Arka plan rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Scroll barın sürgüsünü (thumb) stilize et */
+.operator-secim-card-kutu::-webkit-scrollbar-thumb {
+  background: #888; /* Sürgü rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Sürgüye hover efekt ekle */
+.operator-secim-card-kutu::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover sırasında sürgü rengi */}
+  
+  
+  
+  
+.ulke-secim-card-kutu-tab2{
+	width:369px;
+	height:300px;
+	border:1px solid #F3F3F3;
+	border-radius:5px;
+	margin:25px auto 0 auto;
+	display:none;
+	overflow-x:hidden;
+	overflow-y:scroll;}
+	
+	
+/* Scroll barın genel stilini ayarla */
+ulke-secim-card-kutu-tab2::-webkit-scrollbar {
+  width: 5px; /* Scroll bar genişliği */}
+
+/* Scroll barın gövdesini stilize et */
+ulke-secim-card-kutu-tab2::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Arka plan rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Scroll barın sürgüsünü (thumb) stilize et */
+ulke-secim-card-kutu-tab2::-webkit-scrollbar-thumb {
+  background: #888; /* Sürgü rengi */
+  border-radius: 5px; /* Kenar yuvarlama */}
+
+/* Sürgüye hover efekt ekle */
+ulke-secim-card-kutu-tab2::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover sırasında sürgü rengi */}
+  
+
+.servis-card{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.servis-card:hover{ background:#F8F8F8;}
+
+.servis-card.active{ background:#F8F8F8;}
+
+
+
+.servis-card-tab2{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.servis-card-tab2:hover{ background:#F8F8F8;}
+
+.servis-card-tab2.active{ background:#F8F8F8;}
+
+
+
+
+.ulke-card{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.ulke-card:hover{ background:#F8F8F8;}
+
+.ulke-card.active{ background:#F8F8F8;}
+
+
+.ulke-card-tab2{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.ulke-card-tab2:hover{ background:#F8F8F8;}
+
+.ulke-card-tab2.active{ background:#F8F8F8;}
+
+
+
+
+
+.operator-card{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.operator-card:hover{ background:#F8F8F8;}
+
+.operator-card.active{ background:#F8F8F8;}
+
+
+
+.operator-card-tab2{
+	width:369px;
+	height:50px;
+	background:#FFFFFF;
+	margin:0;
+	border:1px solid #F3F3F3;
+	float:left;
+	z-index:1}
+
+.operator-card-tab2:hover{ background:#F8F8F8;}
+
+.operator-card-tab2.active{ background:#F8F8F8;}
+
+
+
+
+.card-logo{
+	margin:7.5px 0 0 5px;
+	float:left;}
+
+.card-baslik{
+	width:auto;
+	height:20px;
+	float:left;
+	margin:15px 0 0 10px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.5px;}
+
+.card-bilgi{
+	width:110px;
+	height:40px;
+	float:right;}
+
+.card-bilgi-adet{
+	width:20px;
+	height:10px;
+	float:left;
+	margin:20px 5px 0 10px;
+	font-family: Montserrat;
+	font-size: 8px;
+	font-weight: 500;
+	line-height: 9.75px;
+	color: #959595;}
+
+.card-bilgi-fiyat{
+	width:56px;
+	height:20px;
+	border:1px solid #EDEDED;
+	border-radius:4px;
+	float:right;
+	padding:0 0 0 2.5px;
+	margin:12.5px 10px 0 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;}
+
+.para-birimi{
+	display:block;
+	height:14px;
+	width:12px;
+	border-radius:4px;	
+	float:right;
+	margin:2.5px 5px 0 0;
+	background:#EDEDED33;
+	border:1px solid #EDEDED;
+	padding:0 0 0 1.7px;
+	
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 12.19px;
+	color:#4A4A4A;}
+
+.card-bilgi-stok{
+	width:auto;
+	height:10px;
+	float:right;
+	margin:10px -50px 0 0;
+	font-family: Montserrat;
+	font-size: 8px;
+	font-weight: 500;
+	line-height: 9.75px;
+	color:#1CC900;}
+
+
+.operator-card-baslik{
+	width:auto;
+	height:20px;
+	float:left;
+	margin:7.5px 0 0 10px;
+	
+	font-family: Montserrat;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 19.5px;
+	color:#000000;}
+
+
+.operator-card-yazi{
+	width:auto;
+	height:12px;
+	float:left;
+	background:url(images/sms-tracking.png) no-repeat left;
+	padding:0 0 0 12px;
+	margin:30px 0 0 -82.5px;
+	
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12.19px;
+	color:#000000;}
+
+
+.secim-form-2-text{
+	width:369px !important;
+	height:50px;
+	border:1px solid #EDEDED;
+	border-radius:5px;
+	background:#FBFBFB;
+	margin:0 auto;
+	padding:15px 0 0 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: center;
+	color:#4A4A4A;}
+
+.secim-form-2-text.disabled {
+    background: #EDEDED;
+    pointer-events: none;}
+
+.card-iptal{
+	width:24px;
+	height:24px;
+	background:url(../images/close-circle.png);
+	cursor:pointer;
+	float:right;
+	display:none;
+	z-index:2;
+	margin:-37.5px 10px 0 0;}
+
+
+
+
+
+
+
+
+
+ .banner {
+        width: 876px;
+        height: 484px;
+        border: 1px solid #F3F3F3;
+        border-radius: 5px;
+        float: right;
+        margin: 40px 40px 0 0;
+		position: relative; /* Slider ve oklar arasındaki ilişkiyi sağlamak için */
+		z-index:1
+    }
+
+    .slider {
+        width: 550px;
+        height: 266px;
+        border-radius: 5px;
+        margin: 10px;
+        background: #F7F7F7;
+        float: left;
+		overflow:hidden;
+		position: relative; /* Slider ve oklar arasındaki ilişkiyi sağlamak için */
+    }
+
+    .slider-resim {
+        width: 100%;
+        height: auto;
+		object-fit: contain; /* Resmi tamamen göstermek için */
+    }
+	
+	/* Ok stilini tanımla */
+.slider-ok-container {
+    position: absolute;
+    bottom: 10px;
+    left: 12.5%; /* Sola kaydır */
+    display: flex;
+    justify-content: flex-start; /* Sola hizala */
+    align-items: center;
+    width: 100%;
+}
+
+.slider-ok {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none; /* Border kaldır */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.slider-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+	transition: background-color 0.6s; /* Hover animasyonu için */
+}
+
+.slider-dot:hover{
+	background-color: transparent; /* Hover ve aktif durumunda transparent yap */
+    border: 1px solid #FFF; /* Aktif durumda kenar ekle */
+	width: 15px;
+    height: 15px;}
+
+.slider-dot.active {
+	background-color: transparent; /* Hover ve aktif durumunda transparent yap */
+    border: 1px solid #FFF; /* Aktif durumda kenar ekle */
+    width: 15px;
+    height: 15px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+    .telefon{
+        width: 269px;
+        height: 268px;
+        background: url(../images/Group%202.png) no-repeat;
+        float: right;
+        margin: 10px 0 0 0;
+		padding:105px 0 0 0;}
+	
+	.telefon-saat{
+		width: 23px;
+		height: 20px;
+		float:right;
+		margin:2.5px 10px 0 0;
+		
+		font-family: Montserrat;
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 20px;}
+	
+	.telefon-bildirim-1{
+		width:211px;
+		height:41px;
+		border-radius:15px;
+		margin:0 auto 0 auto;
+		background: #D7D7D7;
+		opacity:80%;
+		box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25);}
+	
+	.telefon-bildirim-2{
+		width:211px;
+		height:41px;
+		border-radius:15px;
+		margin:5px auto 0 auto;
+		background: #D7D7D7;
+		opacity:80%;
+		box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25);}
+
+	.telefon-bildirim-3{
+		width:211px;
+		height:41px;
+		border-radius:15px;
+		margin:5px auto 0 auto;
+		background: #D7D7D7;
+		opacity:80%;
+		box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25);}
+	
+	.telefon-bildirim-4{
+		width:174px;
+		height:4px;
+		border-radius:0 0 15px 15px;
+		margin:0 auto;
+		background: #D7D7D7;
+		opacity:90%;
+		box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;}
+		
+	.telefon-bildirim-5{
+		width:158px;
+		height:4px;
+		border-radius:0 0 15px 15px;
+		margin:0 auto;
+		background: #D7D7D7;
+		opacity:80%;
+		box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;}						
+	
+	.telefon-bildirim-1-resim{
+		width:32px;
+		height:24px;
+		background:url(../images/facebook.png);
+		float:left;
+		margin:7.5px 0 0 5px;}
+	
+	.telefon-bildirim-1-yazi-1{
+		width:51px;
+		height:20px;
+		float:left;
+		margin:5px 0 0 0;
+		
+		font-family: Montserrat;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 20px;
+		color:#000000;}
+		
+		.telefon-bildirim-1-yazi-2{
+		width:97px;
+		height:20px;
+		float:left;
+		margin:17.5px 0 0 -50px;
+		
+		font-family: Montserrat;
+		font-size: 8px;
+		font-weight: 400;
+		line-height: 20px;
+		color:#000000;}
+		
+		
+		
+		
+		
+		
+
+    .banner-alt {
+        width: 835px;
+        height: 169px;
+        margin: 10px 0 0 15px;
+        border: 1px solid #F3F3F3;
+        border-radius: 5px;
+        float: left;
+        overflow: hidden; /* Taşan içeriği gizle */
+        position: relative; /* Konumlandırma için gerekli */
+    }
+
+    .banner-alt-servis-sayi {
+        width: auto;
+        height: 135px;
+        float: left;
+        margin: 40px 0 0 30px;
+		
+    }
+
+    .banner-alt-yazi-1 {
+		display:block;
+		height:60px;
+		background: linear-gradient(to right, #962034, #FC3657);
+        -webkit-background-clip: text; /* Metin rengini arka plana eşitle */
+		color:transparent;
+		padding:10px 0 0 0;
+		
+        font-family: 'LEMON MILK', sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .banner-alt-yazi-2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+		margin:0 0 0 0;
+    }
+
+    .banner-alt-uygulamalar {
+        height: 60px;
+        float: left;
+        margin: 10px 0 0 0;
+        position: relative;
+        overflow: hidden; /* Kaydırıcı alanı sınırlar */
+    }
+
+    .banner-alt-uygulamalar.large {
+        width: 506px;
+		float: right; /* Sağ tarafa yasla */;
+		border-radius:20px 0 0 20px;
+    }
+
+    .banner-alt-uygulamalar.small {
+        width: 355px;
+        float: right; /* Sağ tarafa yasla */
+		border-radius:20px 0 0 20px;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto; /* Her bir slaytın genişliği içeriğine göre ayarlanır */
+        height: 100%;
+    }
+
+    .uygulama-resim {
+        width: auto;
+        height: 100%;
+    }
+	
+	
+	
+	
+
+    .banner-asamalar {
+        width: 876px;
+        height: 242px;
+        border: 1px solid #EDEDED;
+        border-radius: 5px;
+        float: left;
+        margin: 15px 0 0 25px;
+    }
+
+    .banner-asama-1, .banner-asama-2, .banner-asama-3 {
+        width: 291.4px;
+        height: 240px;
+        float: left;
+        padding: 25px 0 0 20px;
+        border-right: 1px solid #F3F3F3;
+		transition: all 0.3s ease-in-out;}
+	
+	.banner-asama-1:hover, .banner-asama-2:hover, .banner-asama-3:hover{
+		background:#F8F9FB;
+		}
+
+    .banner-asama-3 {
+        border-right: none;}
+
+    .asamalar-sayi-1 {
+        width: 56px;
+        height: 56px;
+        background: #EDEDED;
+        border-radius: 56px;
+        padding: 7.5px 0 0 0;
+        margin: 0 0 15px 0;
+        font-family: Montserrat;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40.23px;
+        text-align: center;}
+
+    .asamalar-yazi-1 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.38px;
+        color: #000000;
+    }
+
+    .asamalar-yazi-2 {
+        width: auto;
+        height: 40px;
+        margin: 10px 0 0 0;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        color: #000000;
+    }
+
+
+
+
+
+
+
+    .banner-start-now {
+        width: 876px;
+        height: 156px;
+        border: 1px solid #F3F3F3;
+        border-radius: 5px;
+        float: left;
+        margin: 20px 0 0 25px;
+    }
+
+    .banner-start-now-sol {
+        width: 200px;
+        height: 100px;
+        float: left;
+        margin: 25px 0 0 25px;
+    }
+
+    .banner-start-now-yazi-1 {
+        width: 100px;
+        height: 30px;
+        font-family: 'Just Another Hand', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FC3657;
+    }
+
+    .banner-start-now-yazi-2 {
+        width: 200px;
+        height: 50px;
+        margin: -20px 0 0 0;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.38px;
+        color: #000000;
+    }
+
+    .banner-start-now-yazi-3 {
+        width: 250px;
+        height: 15px;
+        margin: 10px auto;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14.63px;
+        color: #A4A4A4;
+    }
+
+    .banner-start-now-sag {
+        width: 465px;
+        height: 125px;
+        float: right;
+        margin: 25px 10px 0 0;
+    }
+
+    .banner-start-now-select-1, .banner-start-now-select-2 {
+        width: 211px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #EDEDED;
+        background: #EDEDED33;
+        padding: 0 0 0 5px;
+        margin: 0 0 0 25px;
+        float: left;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17.07px;
+        color: #4A4A4A;
+    }
+
+    .banner-start-now-select-1 {
+        margin-left: 0;
+    }
+
+    .banner-start-now-button {
+        width: 449px;
+        height: 40px;
+        border-radius: 5px;
+        background: #FC3657;
+        border: none;
+        margin: 10px 0 0 0;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.38px;
+        text-align: center;
+        color: #FFF;
+    }
+	
+.banner-start-now-button:hover{
+	background:#C22942;}
+	
+	
+	
+	
+	
+	
+
+
+.footer{
+	width:100%;
+	height:325px;
+	background:#F8F9FB;
+	float:left;}
+
+.footer-ic{
+	width:1350px;
+	height:325px;
+	margin:0 auto;}
+
+.footer-ic-ust{
+	width:1350px;
+	height:250px;}
+
+.footer-yazi-2{font-family: Montserrat; font-size: 20px; font-weight: 600; line-height: 24.38px; color:#000000;}
+
+
+.footer-ic-kisim-1{width:217px; height:125px; margin:55px 0 0 0; float:left;}
+.footer-resim{width:90%; height:auto;}
+.footer-yazi-1{width:217px; height:36px; margin:10px 0 0 0; font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12.19px; color:#000000;}
+.footer-sosyal{width:138px; height:38px; margin:10px 0 0 0;}
+.footer-sosyal-1{width:38px; height:38px; border-radius:12px; background:url(../images/instagram.png); float:left; margin:0 0 0 0;}
+.footer-sosyal-1:hover{ background:url(../images/instagram_hover.png)}
+.footer-sosyal-2{width:38px; height:38px; border-radius:12px; background:url(../images/twitter.png); float:left; margin:0 0 0 12px;}
+.footer-sosyal-2:hover{ background:url(../images/twitter_hover.png);}
+.footer-sosyal-3{width:38px; height:38px; border-radius:12px; background:url(../images/telegram.png); float:left; margin:0 0 0 12px;}
+.footer-sosyal-3:hover{ background:url(../images/telegram_hover.png);}
+
+
+	
+.footer-ic-kisim-2{width:177px; height:150px; float:left; margin:50px 0 0 50px;}
+.footer-baslik-1{width:177px;height:24px;}
+.footer-menu-1{margin:20px 0 0 0; width:177px; height:110px;}
+.footer-menu-1 ul{margin:0; padding:0; list-style:none;}
+.footer-menu-1 ul li a{ display:block; color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:10px 0 0 0;}
+.footer-menu-1 ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+
+.footer-ic-kisim-3{width:177px; height:125px; float:left; margin:50px 0 0 50px;}
+.footer-baslik-2{width:102px; height:24px;}
+.footer-menu-2{margin:20px 0 0 0; width:140px; height:80px;}
+.footer-menu-2 ul{margin:0; padding:0; list-style:none;}
+.footer-menu-2 ul li a{ display:block; color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:10px 0 0 0;}
+.footer-menu-2 ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+
+.footer-ic-kisim-4{width:177px; height:160px; float:left; margin:50px 0 0 50px;}
+.footer-baslik-3{width:162px; height:24px;}
+.footer-menu-3{margin:20px 0 0 0; width:165px; height:110px;}
+.footer-menu-3 ul{margin:0; padding:0; list-style:none;}
+.footer-menu-3 ul li a{ display:block; color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:10px 0 0 0;}
+.footer-menu-3 ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+
+.footer-ic-kisim-5{width:177px; height:144px; float:left; margin:50px 0 0 45px;}
+.footer-baslik-4{width:97px; height:24px;}
+.footer-menu-4{margin:20px 0 0 0; width:134px; height:100px;}
+.footer-menu-4 ul{margin:0; padding:0; list-style:none;}
+.footer-menu-4 ul li a{ display:block; color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:10px 0 0 0;}
+.footer-menu-4 ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+
+.footer-ic-kisim-6{width:177px; height:94px; float:left; margin:50px 0 0 50px;}
+.footer-baslik-5{width:57px; height:24px;}
+.footer-menu-5{margin:20px 0 0 0; width:80px; height:50px;}
+.footer-menu-5 ul{margin:0; padding:0; list-style:none;}
+.footer-menu-5 ul li a{ display:block; color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:10px 0 0 0;}
+.footer-menu-5 ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+
+.footer-ic-alt{
+	width:1350px;
+	height:75px;
+	border-top:1px solid #F3F3F3;}
+
+.footer-ic-alt-sol{
+	width:245px;
+	height:20px;
+	float:left;
+	margin:30px 0 0 0;}
+
+.footer-ic-alt-orta{ width:650px; height:20px; margin:25px auto 0 auto; }
+.footer-ic-alt-orta ul{ margin:0; padding:0; list-style:none;}
+.footer-ic-alt-orta ul li{ float:left; }
+.footer-ic-alt-orta ul li a{ color:#000000; font-family: Montserrat; font-weight:400; font-size:16px; line-height:19.5px; margin:0 0 0 30px; }
+.footer-ic-alt-orta ul li a:hover{ text-decoration:underline; color:#FC3657;}
+
+.footer-ic-alt-sag{
+	width:269px;
+	height:40px;
+	float:right;
+	margin:-30px 0 0 0;}
+
+.footer-button{
+	width:269px;
+	height:40px;
+	width:#FC3657;
+	height:40px;
+	border-radius:5px;
+	background:#FC3657;
+	border:none;
+	
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24.38px;
+	text-align: center;
+	color:#FFFFFF;}
+
+.footer-button:hover{ background:#C22942 }
